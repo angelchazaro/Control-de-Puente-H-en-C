@@ -69,7 +69,7 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
-		//TX_NEWLINE;
+		TX_NEWLINE;
 		//TX_NEWLINE;
 		//transmitString_F(PSTR("Presiona una tecla para continuar..."));
 		//option = receiveByte();
