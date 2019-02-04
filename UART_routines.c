@@ -4,7 +4,7 @@
 //Controlador:	ATmega328p (Crystal: 8Mhz)
 //Compilador:		Atmel Studio 7 (AVR-GCC)
 //Autor:		CC Dharmani, Chennai (India)	//Fecha:			Abril 2009
-//Co-Autor:		Angel Chazaro (México)			//Fecha:			Enero 2019
+//Co-Autor:		Angel Chazaro (MÃ©xico)		//Fecha:			Enero 2019
 
 //********************************************************
 
@@ -14,7 +14,7 @@
 
 void uart0_init(void)
 {
- UCSR0C = 0x86;	//Para el ATmega32	//0x06; Para el ATmega128
+ UCSR0C = 0x06;	//Para el ATmega32	//0x06; Para el ATmega128
  UBRR0 = 0x67; //Para 103 a 16 mhz a 9600 baudios //0x33; //Para 51 a 8 mhz a 9600 baudios
  UCSR0B = 0x98;
 }
